@@ -1,0 +1,50 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: auto;
+}
+
+svg {
+  border: 2px solid #333;
+  background: white;
+}
+
+.walkable {
+  fill: #e8f5e9;
+  stroke: #b0bec5;
+  stroke-width: 1;
+}
+
+.obstacle {
+  fill: #455a64;
+  stroke: white;
+  stroke-width: 1;
+}
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  fill: #bbdefb;
+}
+
+.start-marker {
+  fill: #00c853;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.destination-marker {
+  fill: #f44336;
+  stroke: white;
+  stroke-width: 2;
+}
+
+.path-cell {
+  fill: #64b5f6;
+  stroke: white;
+  stroke-width: 1;
+  cursor: pointer;
+}
